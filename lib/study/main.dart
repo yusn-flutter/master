@@ -94,9 +94,6 @@ class _RandomWords extends State<RandomWords> {
   }
 
   void pushSaved() {
-    //Navigator.push(context, MaterialPageRoute(builder: (context) =>
-    //FavoriteList(saved: saved, font: font)));
-
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (BuildContext context) => FavoriteList(saved, font),
